@@ -1,0 +1,77 @@
+Host *
+ServerAliveInterval 60
+
+# storing neo cfb
+Host neo143
+    HostName 10.111.0.143
+    User neo
+
+# clickbait editor tool                           
+Host ol15
+    HostName 10.111.0.15
+    User services
+
+# central transmit machine
+Host    zk
+    HostName 42.62.74.20
+    User wuyulong
+# gateway
+Host    gw
+    HostName 10.111.0.141
+    User wuyulong
+# new gateway
+Host    ngw 
+    HostName 10.103.8.3
+    User wuyulong
+
+Host    kf100
+    HostName 10.101.1.100
+    User wuyulong
+Host    mkf
+    HostName 10.101.1.144
+    User wuyulong
+
+# online serving machines
+# profiler5.yidian.com
+# liusen's overstate (劲暴分类器)
+Host    kf102
+    HostName 10.111.0.102
+    User services
+# kvm1.yidian.com: 
+# liusen's baidu baike analyse data
+Host    kf134
+    HostName 10.111.0.134
+    User services
+# online server of predictor
+Host    ol22
+    HostName 10.111.0.22
+    User services
+Host    ol23
+    HostName 10.111.0.23
+    User services
+#       I have run some of KeywordSelector training.
+Host    ol54
+    HostName 10.111.0.54
+    User services
+
+# 
+# Newly assigned machine to replace ol54
+Host    kf48
+    HostName 10.101.2.48
+    User services
+
+# mill1.yidian.com
+#       Where KeywordSelector service located.
+Host    ol18
+    HostName 10.111.0.18
+    User services
+
+# storm1-4.yidian.com
+# liusen's baidu baike analyse data
+Host    kf134
+    HostName 10.111.0.134
+    User services
+# KeywordSelector for ABTest
+Host    solr50
+    HostName 10.111.2.50
+    User services

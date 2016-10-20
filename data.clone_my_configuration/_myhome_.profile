@@ -1,0 +1,11 @@
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export M2_HOME="/usr/share/maven/apache-maven-3.3.3"
+export MAVEN_OPTS="-Xms128m -Xmx512m"
+export M2=$M2_HOME"/bin"
+export PATH=$PATH:$M2
+export JAVA_HOME=$(/usr/libexec/java_home)
+export SCALA_HOME="/usr/local/share/scala-2.11.7/bin"
+export OCTAVE_HOME="/usr/local/Cellar/octave/4.0.0_5"
+export PATH=$PATH:$SCALA_HOME
+export PYTHONPATH=$PYTHONPATH:'/Users/frankie_yd1/Documents/GitSvnLib/Yidian/Mine/YulongUtils/yidian':'/Users/frankie_yd1/Documents/GitSvnLib/Yidian/Mine/YulongUtils'
+export SKLEARN_TUTORIAL_HOME='/Users/frankie_yd1/Documents/GitSvnLib/Mine/sklearn_tutorial'
