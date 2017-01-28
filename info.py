@@ -9,3 +9,4 @@ def ln(a):
 def info(p):
     np = 1-p
     return - p * log2(p) - np * log2(np)
+
